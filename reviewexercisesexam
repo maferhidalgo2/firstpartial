@@ -1,0 +1,35 @@
+Discount calculator
+ Kilometer= float(input("How many kilometers you drive?: "))
+ Gasoline= float(input("How many litters you used?: "))
+ Millas= Kilometer/1.6
+ Galones= Gasoline/3.7
+ KiolmeterperLiter=Kilometer/Gasoline
+ MillasperGalon=Millas/Galones
+ print("Kilometer per liter ",KiolmeterperLiter)
+ print("Millas per Galon ",MillasperGalon)
+
+ Average class
+ def grades_average():
+   print("Hello, what was your grade?")
+   grade_1 = input()
+   print("what was your grade")
+   grade_2 = input()
+   print("what was your grade")
+   grade_3 = input()
+   print("what was your grade")
+   y= int(grade_1)+ int(grade_2) +int(grade_3)
+   x= y/3
+   round (y/3),2
+
+   print("Your average grade is", x)
+ #STEP 2
+ grades_average()
+
+ Tip Calculator
+ Foodcheck=float(input("Your bill is total of : "))
+ Tip= float(input("How mmuch of porcentage of tip in number?"))
+ TIP=(Tip/100)*Foodcheck
+ Total=TIP+Foodcheck
+ print("You total with tip is",Total)
+ print("Your tip amount is",TIP)
+ print("You orginial cost od the food is",Foodcheck)

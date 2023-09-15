@@ -1,0 +1,39 @@
+EXAM CODES
+
+ Easy level
+ VB=float (input ( "How much its the Vibration Machine?:
+ "))
+ Discount=float(input("Whatis the discount in number of the Vibration
+ Machine?:
+ "))
+ Operation=(Discount/100)*VB
+ TotalVB=VB-Operation
+ print ( "Your total with the discount is", TotalVB)
+
+ Normal level
+ TM= float(input( "How much is the Temperature Machine?: ") )
+ TSM= float(input( "How much is the Thermal Shock Manchine?:"))
+ Operation1= TM+TSM
+ Operation2=(10/100)*Operation1
+ TotalD=Operation1-Operation2
+ print( "Your total of the two machine without a discount is", Operation1)
+ print( "Your total with a 10 porcent of discount is", TotalD)
+
+ Hard Level
+ T=float (input ( "How much is the Total of both machines? :
+ "))
+ TD=float (input( "How much is the Total of the two machines with
+ discount?:
+ "))
+ yen=TD*8.37
+ ad=TD*.057
+ yent=T*8.37
+ adt=T*.057
+ print ( "Your total of the two machines without a discount in japanese
+ yen is",yent)
+ print ( "Your total of the two machines without a discount in american
+ dollar is",adt)
+ print( "Your total of the two machines with a discount in japanese yer
+ is",yen)
+ print ( "Your total of the two machines with a discount in american
+ dollar is",ad)

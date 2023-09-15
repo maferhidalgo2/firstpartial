@@ -1,0 +1,27 @@
+def maria(x):
+   n=x/3
+   return n
+
+ y= maria(10)
+
+ print(int(y))
+UNCTIONS
+ y=f(7)
+ print(y)
+ def f(x):
+  f_x=x/3-10
+ return f_x
+
+ y=f(9)
+ print(y)
+ def f(x)
+ f_x=-abs(3*x)
+ return f_x
+
+ y=f(6)
+ print(y)
+ def f(x):
+ f_x= (x-2)*2
+ return f_x
+ y=f(8)
+ print(y)

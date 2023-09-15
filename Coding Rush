@@ -1,0 +1,26 @@
+Coding Rush
+ """
+ InstructJUST BECAUSE :D
+ Instructions: make a code that says you hi and your name, and then
+ asks you a if you want to say something to your ex and give you the
+ wordcount.
+ DRAFT CODE
+ 1. MAKE THE FUNCTION
+ ask the use his/her/their name
+ say hi and the name
+ asks if they want to say something to their ex
+ give you the wordcount
+ 2. EXECUTE THE FUNCTION
+ “““
+ #STEP 1
+  def Just_get_over_it():
+ print( "What is your name?" )
+ variable = input()
+ print( "Hello my friend", variable)
+ print ( "Something you want to say to your ex?")
+ letter = input()
+ letter = letter.split()
+ word count = len(letter)
+ print( "Your letter wordcount is" ,word_count)
+ #STEP 2
+ Just_get_over_it()
